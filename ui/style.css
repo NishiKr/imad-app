@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightblue;
+    background-color: lightgrey;
     margin-top: 75px;
 }
 
@@ -17,6 +17,6 @@ body {
 }
 
 .img-medium {
-    height: 50px;
+    height: 150px;
 }
 
