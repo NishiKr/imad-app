@@ -5,6 +5,26 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var content={
+    title: 'Article One | NKR',
+    heading: 'Article One',
+    date: '13 Sep 17',
+    content: `<P>
+                yo yo yo yo yo yo<br>
+                yo yo yo yo yo yo<br>
+                yo yo yo yo yo yo<br>
+                yo yo yo yo yo yo<br>
+            </P>
+            <P>
+                yo yo yo yo yo yo<br>
+                yo yo yo yo yo yo<br>
+                yo yo yo yo yo yo<br>
+                yo yo yo yo yo yo<br>
+            </P>`
+};
+
+var htmlTemplate
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
