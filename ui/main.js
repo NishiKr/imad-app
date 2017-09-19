@@ -1,7 +1,7 @@
 console.log('Loaded!');
     
 var element = document.getElementById('main-text');
-element.innerHTML='New Value';
+
 
 var image = document.getElementById('madi');
 var marginLeft = 0;
